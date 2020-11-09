@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger App</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container"> 
+        <img src="https://cdn1.iconfinder.com/data/icons/jellycons-2-100-ios-8-app-icons/1024/Burger.png" style='height:100px;' />
+        <h1>Burger Eater</h1>
+
+        {{{ body }}}
+
+        <form action="/" method="POST">
+            <div class="mb-3">
+                <label for="burgerInput" class="form-label">Enter Your Favourite Burger</label>
+                <input class="form-control" name="burger" id="burgerInput" placeholder="Cheese Burger">
+            </div>
+            <button class="btn btn-lg btn-primary">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

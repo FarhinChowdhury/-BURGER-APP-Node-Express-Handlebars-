@@ -1,0 +1,25 @@
+
+<div class="row">
+    <div class="col">
+        <!-- available  -->
+        {{#each available}}
+        <div class="btn-toolbar mb-3">
+            <div class="input-group-text">{{burger_name}}</div>
+
+            <div>
+                <a href="/devour/{{id}}" class="btn btn-secondary">Devour-It!</a>
+            </div>
+            
+        </div>
+        {{/each}}
+    </div>
+    <div class="col">
+        <!-- devoured burgers -->
+        {{#each devoured}}
+        <div class="alert alert-secondary">
+            {{burger_name}}
+        </div>
+        {{/each}}
+    </div>
+</div>
+
