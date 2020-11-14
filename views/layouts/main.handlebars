@@ -6,20 +6,24 @@
     <title>Burger App</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
 </head>
-<body>
+<body style = "background-color: rgb(203, 152, 23);">
     <div class="container"> 
-        <img src="https://cdn1.iconfinder.com/data/icons/jellycons-2-100-ios-8-app-icons/1024/Burger.png" style='height:100px;' />
-        <h1>Burger Eater</h1>
+        <center style="margin-top:20px;">
+            <img src="https://cdn1.iconfinder.com/data/icons/jellycons-2-100-ios-8-app-icons/1024/Burger.png" style='height:100px;' />
+            <h1>Burger Eater</h1>
+        </center>
+        <hr/>
 
         {{{ body }}}
-
-        <form action="/" method="POST">
-            <div class="mb-3">
-                <label for="burgerInput" class="form-label">Enter Your Favourite Burger</label>
-                <input class="form-control" name="burger" id="burgerInput" placeholder="Cheese Burger">
-            </div>
-            <button class="btn btn-lg btn-primary">Submit</button>
-        </form>
+        <div class="container">
+            <form action="/" method="POST">
+                <div class="mb-3">
+                    <label for="burgerInput" class="form-label">Enter Your Favourite Burger</label>
+                    <input class="form-control" name="burger" id="burgerInput" placeholder="Cheese Burger">
+                </div>
+                <button class="btn btn-lg btn-success">Submit</button>
+            </form>
+        </div>
     </div>
 </body>
 </html>
