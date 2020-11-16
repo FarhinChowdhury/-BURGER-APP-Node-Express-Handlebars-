@@ -1,5 +1,5 @@
 
-
+const connection = require('./config/connection.js')
 const express = require("express");
 const exphbs = require("express-handlebars");
 const routerController = require("./controllers/burgers_controllers");
@@ -19,7 +19,7 @@ const PORT = process.env.PORT || 8080;
 
 // for routes
 routerController(app)
-
+connection.connect();
 // for serving media assets
 app.use( express.static('public') )
 
