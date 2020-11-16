@@ -1,4 +1,4 @@
-require( 'dotenv' ).config() // looks for .env ; process.env gets initialized
+
 
 const express = require("express");
 const exphbs = require("express-handlebars");
