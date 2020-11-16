@@ -4,8 +4,9 @@
   "description": "Burger App! is a restaurant app that lets users input the names of burgers they'd like to eat.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+    },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/FarhinChowdhury/-BURGER-APP-Node-Express-Handlebars-"
@@ -13,9 +14,9 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/FarhinChowdhury/-BURGER-APP-Node-Express-Handlebars-"
+    "url": "https://github.com/FarhinChowdhury/-BURGER-APP-Node-Express-Handlebars-/issues"
   },
-  "homepage": "https://github.com/FarhinChowdhury/-BURGER-APP-Node-Express-Handlebars-",
+  "homepage": "https://github.com/FarhinChowdhury/-BURGER-APP-Node-Express-Handlebars-#readme",
   "dependencies": {
     "express": "^4.17.1",
     "express-handlebars": "^5.2.0",
